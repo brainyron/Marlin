@@ -677,7 +677,7 @@
  * K=0 means advance disabled.
  * See Marlin documentation for calibration instructions.
  */
-#define LIN_ADVANCE
+//#define LIN_ADVANCE
 
 #if ENABLED(LIN_ADVANCE)
   #define LIN_ADVANCE_K 0
@@ -877,7 +877,7 @@
  * Requires NOZZLE_PARK_FEATURE.
  * This feature is required for the default FILAMENT_RUNOUT_SCRIPT.
  */
-#define ADVANCED_PAUSE_FEATURE
+// #define ADVANCED_PAUSE_FEATURE
 #if ENABLED(ADVANCED_PAUSE_FEATURE)
   #define PAUSE_PARK_X_POS 75                  // X position of hotend
   #define PAUSE_PARK_Y_POS -75                  // Y position of hotend
