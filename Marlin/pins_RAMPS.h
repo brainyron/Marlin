@@ -52,6 +52,8 @@
   #define BOARD_NAME "RAMPS 1.4"
 #endif
 
+#define LARGE_FLASH true
+
 //
 // Servos
 //
